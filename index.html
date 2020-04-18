@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>My First Game</title>
+
+  <!-- bootstrap -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+  <!-- css stylesheet -->
+  <link rel="stylesheet" href="styles.css">
+
+  <!-- fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Lobster|Marck+Script|Tangerine|Ultra&display=swap" rel="stylesheet">
+
+  <!-- fontawesome  -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.1/css/all.css" integrity="sha384-v8BU367qNbs/aIZIxuivaU55N5GPF89WBerHoGA4QTcbUjYiLQtKdrfXnqAcXyTv" crossorigin="anonymous">
+
+</head>
+
+<body>
+  <div class="container">
+
+    <h1>Luaj përsëri</h1>
+
+    <div class="players">
+      <p>Lojtari 1</p>
+      <img class="img1" src="images/dice6.png">
+    </div>
+
+    <div class="players">
+      <p>Lojtari 2</p>
+      <img class="img2" src="images/dice6.png">
+    </div>
+
+    <div class="play-button">
+      <button type="button" onclick="generateNumber()" class="btn btn-outline-light btn-block btn-lg name"> Luaj </button>
+    </div>
+
+  </div>
+
+  <!-- JavaScript  -->
+  <script src="index.js" charset="utf-8"></script>
+</body>
+
+<footer>
+  <p class="copyright">  🎲 Prill 2020 🎲</p>
+</footer>
+
+</html>
